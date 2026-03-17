@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Practice 1</title>
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container bg-light mt-4 p-5" style="border-style: solid;">
+        <h1>Voter's Verification</h1><hr>
+
+        <label for="age">Enter Age</label>
+            <input type="number" id="age"><br>
+
+        <p id="status">Status</p>
+
+         <button type="button" class="btn-primary mt-3" onclick="confirmAge()">Verify</button>
+         <button type="button" class="btn-primary" onclick="location.reload()">Refresh</button>
+
+         <hr>
+
+         <h1>Verify Grade</h1>
+        
+         <label for="grade">Enter Grade</label>
+            <input type="number" id="grade"> <br>
+        
+         <button type="button" class="btn-primary mt-3" onclick="verifyGrade()">Verify Average</button>
+         <button type="button" class="btn-primary" onclick="location.reload()">Refresh</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
